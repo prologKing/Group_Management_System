@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/GPMS" reloadable="true">
+<Resource 
+auth="Container"
+driverClassName="com.mysql.jdbc.Driver" 
+maxActive="100" 
+maxIdle="30"
+maxWait="30000" 
+minIdle="8"
+name="jdbc/gpmsdb" 
+password="BoLaJi007"
+type="javax.sql.DataSource"
+url="jdbc:mysql://localhost:3306/gpmsdb?autoReconnect=true&amp;serverTimezone=UTC"
+username="root"/>
+
+  </Context>
